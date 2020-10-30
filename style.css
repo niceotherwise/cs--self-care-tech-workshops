@@ -1,0 +1,88 @@
+.anon {
+    font-family: 'Anonymous Pro', sans-serif;
+}
+
+.screenreader-only {
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.header-bg {
+    background-image: url(imgs/headerbg.png);
+    background-position: bottom;
+}
+
+.study-bg {
+    background-image: url(imgs/studybg.png);
+}
+
+.vim {
+    vertical-align: middle;
+}
+
+.bg-lilac {
+    background-color: #c0a7ce;
+}
+
+.dg {
+    display: grid;
+}
+
+.grid-main {
+    grid-template-columns: 1fr 90% 1fr;
+}
+
+
+.bg-header {
+    background: url(imgs/header-bg.jpg);
+}
+
+.bg-friends {
+    background-image: url(imgs/friends-bg-2.png);
+}
+
+.bg-left-border {
+    background-image: url(imgs/left.png);
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+
+.bg-right-border {
+    background-image: url(imgs/right.png);
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+
+.bg-top-border {
+    background-image: url(imgs/top.png);
+    background-size: 100%;
+    background-repeat: repeat-x;
+}
+
+.bg-bottom-border {
+    background-image: url(imgs/bottom.png);
+    background-size: 100%;
+    background-repeat: repeat-x;
+}
+
+.bg-main-ellip {
+    background-image: url(imgs/top_ellip.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.mvh-100 {
+    min-height: 100vh;
+}
+
+details[open] {
+    background-color: #CDECFF;
+  }
+
+  .sticky {
+      position: sticky;
+  }
